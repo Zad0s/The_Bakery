@@ -1,0 +1,754 @@
+h1 {
+    color: #2cccc4;
+    font-family: 'Lobster', cursive;
+}
+
+/* Introduction */
+
+.intro {
+    background-color: #2cccc4;
+}
+
+#image-intro {
+    width: 100%;
+    position: relative;
+}
+
+.block-info {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow:
+    0px 1.2px 7.8px rgba(0, 0, 0, 0.043),
+    0px 3px 19.6px rgba(0, 0, 0, 0.062),
+    0px 6.2px 40px rgba(0, 0, 0, 0.078),
+    0px 12.8px 82.5px rgba(0, 0, 0, 0.097),
+    0px 35px 226px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    position: relative;
+    bottom: 80px;
+}
+
+.block-info h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info-intro {
+    margin-bottom: 40px;
+}
+
+#intro-bouton {
+    text-decoration: none;
+    color: white;
+    background-color: #2cccc4;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: transparent;
+}
+
+#intro-bouton:visited {
+    color: white;
+}
+
+
+
+/* Cards */
+
+.cards {
+    background-color: #2cccc4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:
+    0px 1.2px 7.8px rgba(0, 0, 0, 0.043),
+    0px 3px 19.6px rgba(0, 0, 0, 0.062),
+    0px 6.2px 40px rgba(0, 0, 0, 0.078),
+    0px 12.8px 82.5px rgba(0, 0, 0, 0.097),
+    0px 35px 226px rgba(0, 0, 0, 0.14);
+    width: 60vw;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    color: #808080;
+}
+
+.card h2 {
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+#cercle-cards {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background: #2cccc4;
+    position: relative;
+    left: 10px;
+}
+
+.en-tete-cards img {
+    position: relative;
+    width: 120px;
+    bottom: 80px;
+    right: 30px;
+}
+
+.en-tete-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Desc */
+
+.desc {
+    background-color: #2cccc4;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.desc-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+    background-color: white;
+}
+
+.desc-article img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.desc-article p {
+    text-align: center;
+    line-height: 30px;
+}
+
+/* bio */
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 1.5em;
+}
+
+h3 span {
+    background-color: #2cccc4;
+    padding: 20px 40px;
+}
+
+.bio1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.bio1 img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.bio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bio2 img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.bio2 p {
+    text-align: center;
+    width: 70%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* a propos */
+
+.a-propos-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.a-propos-info h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.a-propos-info h3 {
+    color: #111111;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+}
+.a-propos-info p {
+    text-align: center;
+    line-height: 25px;
+    width: 80%;
+}
+
+/* A propos photo */
+
+.a-propos-photos{
+    display: flex;
+    flex-direction: column;
+}
+
+#photo-boulanger {
+    border-radius: 100%;
+    height: 60vw;
+    width: 60vw;
+    object-fit: cover;
+    border: solid #2cccc4 2.5vw;
+    object-position: top;
+    position: relative;
+    margin: auto;
+}
+    
+
+#photo-croissant {
+    border-radius: 100%;
+    height: 40vw;
+    width: 40vw;
+    object-fit: cover;
+    object-position: top;
+    border: solid white 2.5vw;
+    box-shadow:
+    0.2px 1.1px 2.9px rgba(0, 0, 0, 0.098),
+    0.5px 3px 7.9px rgba(0, 0, 0, 0.14),
+    1.2px 7.2px 19px rgba(0, 0, 0, 0.182),
+    4px 24px 63px rgba(0, 0, 0, 0.28);
+    position: relative;
+    right: 50px;
+    bottom: 60px;
+    margin: auto;
+}
+
+#cercle-a-propos {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100%;
+    background: #2cccc4;
+    margin: auto; 
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+}
+
+/* produits douceurs */
+
+.douceur {
+    background-image: url(/images/image9.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.douceur div {
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.douceur h2 {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.douceur h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    text-align:left;
+}
+
+li {
+    list-style: none;
+}
+
+li:before {
+    content: '—';
+    margin-right: 5px;
+}
+
+ /* Produits */
+
+.intro-produits p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+}
+
+.produits-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.produit h2 {
+    font-size: 1.5em;
+}
+
+.produit p {
+    font-style: italic;
+}
+
+.produit h3 {
+    font-size: 1.5em;
+    color: #2cccc4;
+}
+
+.produit img {
+    object-fit: cover;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+}
+
+.pain-bagels {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(/images/image15.jpg);
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pain-bagels h2 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 1.5em;
+}
+
+.pain-bagels p {
+    color: white;
+    font-style: italic;
+    width: 70%;
+    text-align: center;
+}
+
+/* Contact */
+
+.intro-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+#contact-boulanger {
+    width: 70vw;
+    height: 70vw;
+    border-radius: 100%;
+    border: white solid 10px;
+    object-fit: cover;
+}
+
+#contact-petrissage {
+    width: 60vw;
+    height: 60vw;
+    border-radius: 100%;
+    border: white solid 10px;
+    object-fit: cover;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+
+#contact-pain {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+    border: white solid 10px;
+    object-fit: cover;
+    position: relative;
+    bottom: 280px;
+    right: 80px;
+}
+
+/* Formulaire de contact */
+
+.formulaire-contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+#mail, #nom {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+    padding: 0 1em;
+    background-color: #e0e0e0;
+    border: 2px solid silver;
+    width: 60vw;
+    height: 2.5rem;
+    border-radius: 30px;
+    color: #808080;
+    font-size: 0.8em;
+}
+
+.formulaire-contact form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #2cccc4;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    border: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Adresse */
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Reseaux */
+
+.reseaux img {
+    width: 8vw;
+}
+
+.reseaux {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-reseaux h3 {
+    color: #111111;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.text-reseaux {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    /* Introduction */
+    
+    #image-intro {
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    .block-info {
+        bottom: 200px;
+    }
+
+    .block-info h1 {
+        font-size: 3em;
+    }
+
+    .block-info p {
+        font-size: 1.3em;
+        line-height: 30px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    #intro-bouton {
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    /* Cards */
+
+    .cards {
+        flex-direction: row;
+    }
+
+    .card {
+        height: 20vw;
+        width: 15vw;
+    }
+
+
+    /* a propos */
+
+    .a-propos-info {
+        width: 40%;
+    }
+    
+    .a-propos {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        align-items:start;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .a-propos-info h2 {
+        font-size: 1.3em;
+    }
+    
+    .a-propos-info h3 {
+        font-size: 3em;
+    }
+
+    .a-propos-info p {
+        font-size: 1.2em;
+    }
+
+    #photo-boulanger {
+        border-radius: 100%;
+        height: 30vw;
+        width: 30vw;
+        object-fit: cover;
+        border: solid #2cccc4 1.2vw;
+    }
+        
+    
+    #photo-croissant {
+        border-radius: 100%;
+        height: 15vw;
+        width: 15vw;
+        object-fit: cover;
+        object-position: top;
+        border: solid white 1vw;
+        box-shadow:
+        0.2px 1.1px 2.9px rgba(0, 0, 0, 0.098),
+        0.5px 3px 7.9px rgba(0, 0, 0, 0.14),
+        1.2px 7.2px 19px rgba(0, 0, 0, 0.182),
+        4px 24px 63px rgba(0, 0, 0, 0.28);
+        position: relative;
+        right: 100px;
+        bottom: 120px;
+        margin: auto;
+    }
+    
+    #cercle-a-propos {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 100%;
+        background: #2cccc4;
+        margin: auto; 
+        position: relative;
+        bottom: 150px;
+        left: 50px;
+    }
+    
+    /* produits douceurs */
+
+    .douceur h2 {
+        font-size: 3em;
+    }
+
+    .douceur {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            grid-template-areas:
+              "h2 h2 h2"
+              "cookies scones autres";
+          }
+          
+          .douceur h2 { 
+            grid-area: h2; 
+            text-align: center;
+        }
+          
+          .cookies { 
+            grid-area: cookies; 
+        }
+          
+          .scones { 
+            grid-area: scones; 
+        }
+          
+          .autres { 
+            grid-area: autres; 
+        }
+          
+    
+
+    .douceur div {
+        height: 15vw;
+        width: 20vw;
+    }
+    
+    /* produits */
+
+    .produit img {
+        object-fit: cover;
+        width: 25vw;
+        height: 25vw;
+        border-radius: 100%;
+    }
+    
+    .produits-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /* adresses */
+    
+    .adresse-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .adresse {
+        width: 30%;
+    }
+
+    /* reseaux */ 
+
+    .reseaux img {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .reseaux-contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 200px;
+        margin-bottom: 50px;
+    }
+
+    .text-reseaux h3 {
+        font-size: 2.5em;
+    }
+
+    .text-reseaux p {
+        font-size: 1.2em;
+    }
+    
+    /* Formulaire de contact */
+
+.formulaire-contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "#mail #nom"
+      "btn btn btn";
+}
+  
+  .douceur h2 { 
+    grid-area: btn; 
+}
+  
+  #mail { 
+    grid-area: #mail; 
+}
+  
+  #nom { 
+    grid-area: #nom; 
+}
+
+#mail, #nom {
+    width: 20vw;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #2cccc4;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    border: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+    
+}
+
